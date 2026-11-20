@@ -1,20 +1,30 @@
 # LightPHP Core
 
-LightPHP Core is the framework-independent PHP 8.5 application foundation used by the website starter and the Tour Kinet Travel App. It provides application bootstrap, request/response handling, explicit routing, template resolution, configuration, file caching, security primitives, HTTP transport, and the Spark CLI.
+LightPHP Core is a framework-independent PHP 8.5 application foundation maintained by CodeverseIndia. It provides application bootstrap, request and response handling, explicit routing, template resolution, configuration, file caching, security primitives, HTTP transport, and the Spark CLI.
+
+## Installation
+
+Install the package with Composer:
+
+```sh
+composer require codeverseindia/lightphp-core
+```
+
+The package uses PSR-4 autoloading under `CodeverseIndia\LightPHP\`.
+
+```php
+use CodeverseIndia\LightPHP\Application;
+```
 
 ## Development
 
-This package is developed in the parent starter repository. From the repository root, run:
+From the repository root, install dependencies and run the test suite:
 
 ```sh
 composer install
-php packages/lightphp-core/tests/run.php
+php tests/run.php
 ```
 
-The package uses PSR-4 autoloading under `TourKinet\LightPHP\`. It does not contain Tour Kinet endpoints, API credentials, travel controllers, or default travel website views.
+## Releases
 
-## Release
-
-The package directory is self-contained and has its own `composer.json`. To prepare a standalone repository, export the history under `packages/lightphp-core` (for example with `git subtree split --prefix=packages/lightphp-core`) so `composer.json` is at the repository root. Tag releases in that repository, such as `v1.0.0`; Composer package versions come from release tags, not a manifest `version` field.
-
-Publish only after repository ownership, access, and package registry settings are explicitly approved. The website starter's local path repository is for monorepo development only.
+This package is distributed through Composer. Tag releases with semantic versions, for example `v1.0.0`; Composer package versions come from Git tags rather than a `version` field in `composer.json`.

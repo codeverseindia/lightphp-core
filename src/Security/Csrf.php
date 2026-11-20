@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace TourKinet\LightPHP\Security;
+namespace CodeverseIndia\LightPHP\Security;
 
 use RuntimeException;
-use TourKinet\LightPHP\Core\Config;
-use TourKinet\LightPHP\Core\Request;
+use CodeverseIndia\LightPHP\Core\Config;
+use CodeverseIndia\LightPHP\Core\Request;
 
 final class Csrf
 {

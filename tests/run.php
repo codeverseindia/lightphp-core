@@ -7,14 +7,14 @@ $autoload = is_file($root . '/vendor/autoload.php')
     : dirname(__DIR__) . '/vendor/autoload.php';
 require $autoload;
 
-use TourKinet\LightPHP\Cache\FileCache;
-use TourKinet\LightPHP\Core\Request;
-use TourKinet\LightPHP\Core\Response;
-use TourKinet\LightPHP\Core\Router;
-use TourKinet\LightPHP\Core\View;
-use TourKinet\LightPHP\Security\Csrf;
-use TourKinet\LightPHP\Security\Validator;
-use TourKinet\LightPHP\Support\Helpers;
+use CodeverseIndia\LightPHP\Cache\FileCache;
+use CodeverseIndia\LightPHP\Core\Request;
+use CodeverseIndia\LightPHP\Core\Response;
+use CodeverseIndia\LightPHP\Core\Router;
+use CodeverseIndia\LightPHP\Core\View;
+use CodeverseIndia\LightPHP\Security\Csrf;
+use CodeverseIndia\LightPHP\Security\Validator;
+use CodeverseIndia\LightPHP\Support\Helpers;
 
 $tests = 0;
 $failures = [];

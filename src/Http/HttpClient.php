@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace TourKinet\LightPHP\Http;
+namespace CodeverseIndia\LightPHP\Http;
 
 use InvalidArgumentException;
 use RuntimeException;

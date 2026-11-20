@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace TourKinet\LightPHP\Support;
+namespace CodeverseIndia\LightPHP\Support;
 
 use LogicException;
-use TourKinet\LightPHP\Application;
+use CodeverseIndia\LightPHP\Application;
 
 final class Runtime
 {

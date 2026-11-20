@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace TourKinet\LightPHP\Support;
+namespace CodeverseIndia\LightPHP\Support;
 
 final class Helpers
 {

@@ -1,21 +1,21 @@
 <?php
 declare(strict_types=1);
 
-namespace TourKinet\LightPHP;
+namespace CodeverseIndia\LightPHP;
 
 use ErrorException;
 use Throwable;
-use TourKinet\LightPHP\Cache\FileCache;
-use TourKinet\LightPHP\Core\Config;
-use TourKinet\LightPHP\Core\Request;
-use TourKinet\LightPHP\Core\Response;
-use TourKinet\LightPHP\Core\Router;
-use TourKinet\LightPHP\Core\View;
-use TourKinet\LightPHP\Security\Csrf;
-use TourKinet\LightPHP\Security\RateLimiter;
-use TourKinet\LightPHP\Security\SecurityHeaders;
-use TourKinet\LightPHP\Support\Helpers;
-use TourKinet\LightPHP\Support\Runtime;
+use CodeverseIndia\LightPHP\Cache\FileCache;
+use CodeverseIndia\LightPHP\Core\Config;
+use CodeverseIndia\LightPHP\Core\Request;
+use CodeverseIndia\LightPHP\Core\Response;
+use CodeverseIndia\LightPHP\Core\Router;
+use CodeverseIndia\LightPHP\Core\View;
+use CodeverseIndia\LightPHP\Security\Csrf;
+use CodeverseIndia\LightPHP\Security\RateLimiter;
+use CodeverseIndia\LightPHP\Security\SecurityHeaders;
+use CodeverseIndia\LightPHP\Support\Helpers;
+use CodeverseIndia\LightPHP\Support\Runtime;
 
 final class Application
 {

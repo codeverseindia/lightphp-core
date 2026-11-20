@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace TourKinet\LightPHP\Core;
+namespace CodeverseIndia\LightPHP\Core;
 
 final class Router
 {

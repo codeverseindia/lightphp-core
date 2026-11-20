@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace TourKinet\LightPHP\Cache;
+namespace CodeverseIndia\LightPHP\Cache;
 
 use DirectoryIterator;
 use JsonException;

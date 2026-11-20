@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace TourKinet\LightPHP\Security;
+namespace CodeverseIndia\LightPHP\Security;
 
-use TourKinet\LightPHP\Core\Config;
+use CodeverseIndia\LightPHP\Core\Config;
 
 final class SecurityHeaders
 {

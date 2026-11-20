@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-use TourKinet\LightPHP\Core\Config;
-use TourKinet\LightPHP\Security\Csrf;
-use TourKinet\LightPHP\Security\Validator;
-use TourKinet\LightPHP\Support\Helpers;
-use TourKinet\LightPHP\Support\Runtime;
+use CodeverseIndia\LightPHP\Core\Config;
+use CodeverseIndia\LightPHP\Security\Csrf;
+use CodeverseIndia\LightPHP\Security\Validator;
+use CodeverseIndia\LightPHP\Support\Helpers;
+use CodeverseIndia\LightPHP\Support\Runtime;
 
 if (!function_exists('view')) {
     function view(string $template, array $data = []): void

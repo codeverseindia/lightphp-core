@@ -10,7 +10,7 @@
     },
     "autoload": {
         "psr-4": {
-            "TourKinet\\LightPHP\\": "src/"
+            "CodeverseIndia\\LightPHP\\": "src/"
         },
         "files": [
             "src/Support/functions.php"

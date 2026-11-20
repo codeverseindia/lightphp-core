@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace TourKinet\LightPHP\Console;
+namespace CodeverseIndia\LightPHP\Console;
 
 use Throwable;
-use TourKinet\LightPHP\Application;
+use CodeverseIndia\LightPHP\Application;
 
 final class Console
 {

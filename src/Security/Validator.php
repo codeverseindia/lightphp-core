@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace TourKinet\LightPHP\Security;
+namespace CodeverseIndia\LightPHP\Security;
 
 final class Validator
 {
